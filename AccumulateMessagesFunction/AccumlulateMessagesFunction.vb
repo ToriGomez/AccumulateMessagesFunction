@@ -8,7 +8,6 @@ Option Explicit On
 Option Strict On
 
 Module AccumlulateMessagesFunction
-
     Sub Main()
         Dim userInput As String
 
@@ -24,7 +23,6 @@ Module AccumlulateMessagesFunction
         Console.Read()
 
     End Sub
-
     Function UserInputCheck(ByVal userInput As String) As String
         If userInput = "" Then
             Return UserMessages(($"{userInput}"), True)
